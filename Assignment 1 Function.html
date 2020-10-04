@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<script>
+  
+// Create a function circleArea, which calculates area of a circle
+  function circleArea(){
+    
+    document.write("<br>")
+    document.write("The circle area = " + (22/7) * radius ** 2)
+   
+  }
+  var radius=1;
+  circleArea();
+// Create a function RectangleArea, which calculates area of a rectangle
+  function RectangleArea(){
+    
+    document.write("<br>")
+    document.write("The rectangle area = " + length*breadth)
+    
+  }
+  var length=2, breadth=3;
+   RectangleArea();
+
+// Create a function that takes radius as an argument and calculates area of a circle with the given radius
+  function circleArea_2(radius){
+    
+    document.write("<br>")
+    document.write("The circle area = " + (22/7) * radius ** 2)
+    
+  }
+  circleArea_2(1);
+  
+// Create a function that takes length and breadth as an argument and calculates area of a rectangle with the given length and breadth    
+  function RectangleArea_2(length, breadth){
+    
+    document.write("<br>")
+    document.write("The rectangle area = " + length*breadth)
+    
+  }
+  RectangleArea_2(2,3);
+  
+// Create a function that takes radius as an argument, calculates area of a circle with the given info and returns the area
+  function circleArea_3(radius){
+    
+    circle_area = (22/7) * radius ** 2
+    return circle_area
+    
+  }
+  
+  document.write("<br>The circle area = " + circleArea_3(1))
+  
+// Create a function that takes length and breadth as an argument and calculates area of a rectangle with the given info and returns the area
+  function RectangleArea_3(length, breadth){
+    
+    rectangle_area = length*breadth
+    return rectangle_area
+    
+  }
+  document.write("<br>The rectangle area = " + RectangleArea_3(2, 3))
+  </script>
+
